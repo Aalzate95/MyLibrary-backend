@@ -6,9 +6,9 @@ services:
     volumes:
       - ./data/db:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=Restaurante
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=A124356*/
+      - POSTGRES_DB=MyLibrary
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=1234
   web:
     build: .
 
